@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #08948f;
+
+}
+
+#calc button{
+    border: black 1px solid;
+    margin: 12px;
+    font-size: 30px;
+}
+#display{
+    text-align: center;
+    height:40px;
+    background-color: #c7b6b6;
+    width:280px;
+    font-size: 30px;
+}
+#calc{
+    background-color: orange;
+    width: 280px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+#contain{
+    text-align: center;
+}
