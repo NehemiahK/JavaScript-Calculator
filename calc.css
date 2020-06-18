@@ -6,31 +6,49 @@ body{
 }
 
 #calc button{
-    border: white 1px solid;
-    margin: 12px;
-    font-size: 37px;
-    width: 40px;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color:white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button{
+    background: #212020;
+}
+
+#calc button.clear{
+    width: 140px;
+    height: 60px;
+    border-radius: 40px;
+    background: #aba6a6;
+    color: black;
 
 }
+.operation{
+   background: #e49c18;
+}
+
 #wrap{
-    border: black 2px solid;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 9px 7px 15px #131212;
 }
 #display{
-    text-align: center;
-    height:60px;
-    background-color: #c7b6b6;
-    width:280px;
-    font-size: 30px;
+    text-align: right;
+    color: white;
+    padding-top: 20px;
+    background-color: black;
+    font-size: 40px;
+    padding-right: 20px;
 }
-#calc{
-    background-color: orange;
-    width: 280px;
-}
-h3{
-    font-size: 20px;
-    text-align: center;
-}
-#contain{
-    text-align: center;
 
+button:focus{
+    outline:none;
 }

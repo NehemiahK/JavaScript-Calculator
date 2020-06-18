@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <meta charset="UTF-8">
@@ -11,19 +12,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+
 <body>
     <div id="contain">
-
-        <h3>JS Calculator</h3>
         <div id="wrap">
             <div id="display">
             </div>
             <div id="calc">
                 <div>
+                    <button class='clear' value="clear">AC</button>
+                </div>
+                <div>
                     <button value="7">7</button>
                     <button value="8">8</button>
                     <button value="9">9</button>
-                    <button value="/">/</button>
+                    <button class='operation' value="/">/</button>
 
                 </div>
 
@@ -31,7 +34,7 @@
                     <button value="4">4</button>
                     <button value="5">5</button>
                     <button value="6">6</button>
-                    <button value="*">*</button>
+                    <button class='operation' value="*">*</button>
 
 
                 </div>
@@ -40,24 +43,19 @@
                     <button value="1">1</button>
                     <button value="2">2</button>
                     <button value="3">3</button>
-                    <button value="-">-</button>
+                    <button class='operation' value="-">-</button>
 
                 </div>
 
                 <div>
-                    <button value="equals">=</button>
-                    <button value="0">0</button>
                     <button value=".">.</button>
-                    <button value="+">+</button>
-                    <button style="width:55px" value="clear">ac</button>
-
-
+                    <button value="0">0</button>
+                    <button class='operation' value="equals">=</button>
+                    <button class='operation' value="+">+</button>
                 </div>
             </div>
         </div>
-        <a href="https://github.com/NehemiahK/" target="_blank">
-            <img height ="40px"src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
-        </a>
+
     </div>
     <script src="calc.js"></script>
 </body>
